@@ -112,7 +112,7 @@ Now you just need to wait for the VPS to sync up the blockchain and await your f
 
 ## Refreshing Node
 
-To refresh your node please run this from root ~
+To refresh your node please run this from your previously created user 
 
 ```
 rm -rf InstallMN && git clone https://github.com/99Masternodes/InstallMN.git && cd InstallMN && bash refresh_node.sh
@@ -122,7 +122,7 @@ No other attention is required.
 
 ## Updating Node
 
-To update your node please run this from root ~ and follow the instructions:
+To update your node please run this from your previously created user and follow the instructions:
 
 ```
 cd InstallMN && git pull && bash update_node.sh
