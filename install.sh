@@ -100,6 +100,8 @@ sleep 10
 
 #Create wac.conf
 echo '
+rpcuser='$password'
+rpcpassword='$password2'
 listen=1
 server=1
 daemon=1
