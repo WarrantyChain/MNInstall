@@ -35,7 +35,10 @@ masternode outputs
 Write this down or copy it somewhere safe.
 
 
-SSH (Putty on Windows, Terminal.app on macOS) to your VPS, login to root, and add new user if it is not created already.
+SSH (Putty on Windows, Terminal.app on macOS) to your VPS, login to 
+root, and add new user if it is not created already. Do _NOT_ use 
+CAPITAL 
+LETTERS in the user name!
 
 ```bash
 adduser YOURUSERNAME
@@ -55,7 +58,7 @@ sudo apt-get -y install git
 Then clone the Github repository.
 
 ```bash
-git clone https://https://github.com/WarrantyChain/MNInstall.git
+git clone https://github.com/WarrantyChain/MNInstall.git
 ```
 Navigate to the install folder:
 
